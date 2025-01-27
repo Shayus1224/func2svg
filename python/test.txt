@@ -1,0 +1,518 @@
+Nodes:
+Node ID: 140015, Color: (160, 0, 160), Neighbors: 130006 
+Node ID: 140014, Color: (0, 100, 100), Neighbors: 150007 140011 130006 
+Node ID: 140013, Color: (0, 180, 180), Neighbors: 
+Node ID: 140012, Color: (0, 0, 150), Neighbors: 130008 130006 130002 
+Node ID: 140011, Color: (0, 0, 70), Neighbors: 150007 140014 130006 130002 
+Node ID: 140010, Color: (0, 50, 0), Neighbors: 
+Node ID: 140009, Color: (50, 150, 220), Neighbors: 
+Node ID: 140008, Color: (90, 90, 90), Neighbors: 130002 
+Node ID: 140007, Color: (255, 0, 0), Neighbors: 130002 
+Node ID: 140006, Color: (250, 0, 0), Neighbors: 150004 130003 
+Node ID: 140005, Color: (250, 0, 250), Neighbors: 
+Node ID: 140004, Color: (0, 180, 100), Neighbors: 
+Node ID: 140003, Color: (250, 0, 190), Neighbors: 
+Node ID: 130012, Color: (0, 0, 150), Neighbors: 
+Node ID: 130011, Color: (0, 0, 70), Neighbors: 130010 130006 
+Node ID: 130010, Color: (0, 50, 0), Neighbors: 130011 
+Node ID: 130009, Color: (50, 150, 220), Neighbors: 
+Node ID: 130008, Color: (90, 90, 90), Neighbors: 130006 140012 130002 120002 
+Node ID: 130007, Color: (255, 0, 0), Neighbors: 120007 
+Node ID: 130006, Color: (250, 0, 0), Neighbors: 140015 140011 130011 140014 120007 130008 140012 130002 120002 
+Node ID: 130005, Color: (250, 0, 250), Neighbors: 120002 
+Node ID: 130004, Color: (0, 180, 100), Neighbors: 130002 120002 
+Node ID: 130003, Color: (250, 0, 190), Neighbors: 140006 120005 120003 120002 
+Node ID: 130002, Color: (50, 50, 150), Neighbors: 140008 140012 120002 120004 130001 120005 140011 120001 130006 120003 130008 130004 140000 140002 140007 
+Node ID: 70000, Color: (160, 10, 180), Neighbors: 80001 70001 80004 80003 80000 70002 60000 
+Node ID: 110005, Color: (250, 0, 250), Neighbors: 120002 120003 110007 100007 110001 100005 100001 
+Node ID: 60016, Color: (250, 5, 250), Neighbors: 
+Node ID: 60015, Color: (160, 0, 160), Neighbors: 
+Node ID: 60014, Color: (0, 100, 100), Neighbors: 
+Node ID: 60013, Color: (0, 180, 180), Neighbors: 70009 50013 50012 70008 60011 50011 
+Node ID: 60000, Color: (160, 10, 180), Neighbors: 70002 70000 50000 
+Node ID: 100005, Color: (250, 0, 250), Neighbors: 110007 110005 100007 110001 90007 100001 90005 90001 
+Node ID: 50013, Color: (0, 180, 180), Neighbors: 60013 
+Node ID: 50012, Color: (0, 0, 150), Neighbors: 60012 60013 60011 60010 40009 
+Node ID: 50011, Color: (0, 0, 70), Neighbors: 60013 60011 40010 
+Node ID: 160006, Color: (250, 0, 0), Neighbors: 
+Node ID: 50010, Color: (0, 50, 0), Neighbors: 50008 40007 
+Node ID: 60006, Color: (250, 0, 0), Neighbors: 70003 70004 70005 60008 50008 70001 50007 60004 50004 
+Node ID: 100011, Color: (0, 0, 70), Neighbors: 110013 110011 110009 110010 100013 90013 100010 90010 100009 90011 90009 
+Node ID: 150001, Color: (10, 100, 200), Neighbors: 
+Node ID: 40005, Color: (250, 0, 250), Neighbors: 50005 40006 
+Node ID: 80010, Color: (0, 50, 0), Neighbors: 90011 90010 90009 80011 80009 70009 70008 70007 
+Node ID: 60005, Color: (250, 0, 250), Neighbors: 70005 70003 60009 50008 60007 50007 50005 
+Node ID: 100010, Color: (0, 50, 0), Neighbors: 110012 110011 110010 110009 110007 100011 90011 100009 90010 100007 90009 90007 
+Node ID: 150000, Color: (160, 10, 180), Neighbors: 140000 
+Node ID: 40004, Color: (0, 180, 100), Neighbors: 
+Node ID: 80009, Color: (50, 150, 220), Neighbors: 90010 90011 90009 90007 80010 70008 80011 70009 80007 70007 70005 
+Node ID: 160005, Color: (250, 0, 250), Neighbors: 
+Node ID: 50009, Color: (50, 150, 220), Neighbors: 60011 60008 60009 40008 
+Node ID: 60004, Color: (0, 180, 100), Neighbors: 70004 70001 50005 70003 60006 50004 
+Node ID: 100009, Color: (50, 150, 220), Neighbors: 110011 110010 110009 100011 90011 110007 100010 90010 100007 90009 90007 
+Node ID: 40003, Color: (250, 0, 190), Neighbors: 50004 
+Node ID: 80008, Color: (90, 90, 90), Neighbors: 90008 70006 
+Node ID: 160004, Color: (0, 180, 100), Neighbors: 
+Node ID: 50008, Color: (90, 90, 90), Neighbors: 60008 60006 60009 60005 60007 50010 40007 50007 
+Node ID: 90013, Color: (0, 180, 180), Neighbors: 100013 100011 90011 80013 80011 
+Node ID: 60012, Color: (0, 0, 150), Neighbors: 70009 50012 
+Node ID: 150007, Color: (255, 0, 0), Neighbors: 140014 140011 
+Node ID: 40011, Color: (0, 0, 70), Neighbors: 
+Node ID: 60003, Color: (250, 0, 190), Neighbors: 70001 70002 50002 50003 
+Node ID: 100008, Color: (90, 90, 90), Neighbors: 110008 90008 
+Node ID: 40002, Color: (50, 50, 150), Neighbors: 50002 
+Node ID: 80007, Color: (255, 0, 0), Neighbors: 90009 90005 90007 90004 80009 80005 70004 70007 80004 70005 70003 
+Node ID: 70008, Color: (90, 90, 90), Neighbors: 80011 80010 80009 60013 60011 70009 70007 60010 
+Node ID: 30003, Color: (250, 0, 190), Neighbors: 
+Node ID: 110013, Color: (0, 180, 180), Neighbors: 110011 100013 100011 
+Node ID: 140002, Color: (50, 50, 150), Neighbors: 140000 130002 130001 
+Node ID: 30006, Color: (250, 0, 0), Neighbors: 
+Node ID: 160003, Color: (250, 0, 190), Neighbors: 
+Node ID: 50007, Color: (255, 0, 0), Neighbors: 60008 60006 60009 60007 60005 50008 50005 
+Node ID: 90012, Color: (0, 0, 150), Neighbors: 
+Node ID: 60011, Color: (0, 0, 70), Neighbors: 70009 70008 70006 50012 60013 50011 60008 50009 
+Node ID: 150006, Color: (250, 0, 0), Neighbors: 
+Node ID: 40010, Color: (0, 50, 0), Neighbors: 50011 
+Node ID: 60002, Color: (50, 50, 150), Neighbors: 70004 70001 50006 50004 50002 
+Node ID: 100007, Color: (255, 0, 0), Neighbors: 110010 110009 110005 110004 110007 100010 100009 90009 100005 90005 100004 90007 90004 
+Node ID: 40001, Color: (10, 100, 200), Neighbors: 50003 
+Node ID: 80006, Color: (250, 0, 0), Neighbors: 90006 90004 80004 70003 
+Node ID: 70007, Color: (255, 0, 0), Neighbors: 80010 80011 80009 80007 70008 70009 60010 70005 60008 60007 
+Node ID: 30002, Color: (50, 50, 150), Neighbors: 
+Node ID: 110012, Color: (0, 0, 150), Neighbors: 110010 100010 
+Node ID: 140001, Color: (10, 100, 200), Neighbors: 
+Node ID: 30005, Color: (250, 0, 250), Neighbors: 
+Node ID: 70010, Color: (0, 50, 0), Neighbors: 
+Node ID: 160002, Color: (50, 50, 150), Neighbors: 
+Node ID: 50006, Color: (250, 0, 0), Neighbors: 60008 60007 60002 50004 
+Node ID: 90011, Color: (0, 0, 70), Neighbors: 100013 100011 100009 100010 90013 80013 90010 80010 90009 80011 80009 
+Node ID: 60010, Color: (0, 50, 0), Neighbors: 70008 70009 70007 50012 
+Node ID: 150005, Color: (250, 0, 250), Neighbors: 
+Node ID: 40009, Color: (50, 150, 220), Neighbors: 50012 
+Node ID: 60001, Color: (10, 100, 200), Neighbors: 
+Node ID: 100006, Color: (250, 0, 0), Neighbors: 110006 110004 100004 90006 90004 
+Node ID: 40000, Color: (160, 10, 180), Neighbors: 
+Node ID: 80005, Color: (250, 0, 250), Neighbors: 90007 90005 90001 80007 70005 80001 70004 70001 
+Node ID: 70006, Color: (250, 0, 0), Neighbors: 80008 60011 60008 60009 
+Node ID: 30001, Color: (10, 100, 200), Neighbors: 
+Node ID: 110011, Color: (0, 0, 70), Neighbors: 110013 100010 100013 110010 100011 110009 100009 
+Node ID: 140000, Color: (160, 10, 180), Neighbors: 150000 140002 130002 130001 130000 
+Node ID: 30004, Color: (0, 180, 100), Neighbors: 
+Node ID: 70009, Color: (50, 150, 220), Neighbors: 80013 80010 80011 80009 60012 60013 60011 70008 70007 60010 
+Node ID: 160001, Color: (10, 100, 200), Neighbors: 
+Node ID: 50005, Color: (250, 0, 250), Neighbors: 60007 60005 40006 40005 60004 50007 
+Node ID: 90010, Color: (0, 50, 0), Neighbors: 100011 100010 100009 90011 90009 80011 80010 80009 
+Node ID: 60009, Color: (50, 150, 220), Neighbors: 70006 70003 50009 60007 60005 50008 50007 
+Node ID: 150004, Color: (0, 180, 100), Neighbors: 140006 
+Node ID: 40008, Color: (90, 90, 90), Neighbors: 50009 
+Node ID: 80013, Color: (0, 180, 180), Neighbors: 90013 90011 80011 70009 
+Node ID: 60008, Color: (90, 90, 90), Neighbors: 70006 70007 70005 60011 70003 50009 60006 50008 50007 70004 60007 50006 
+Node ID: 100013, Color: (0, 180, 180), Neighbors: 110013 110011 100011 90013 90011 
+Node ID: 150003, Color: (250, 0, 190), Neighbors: 
+Node ID: 40007, Color: (255, 0, 0), Neighbors: 50010 50008 
+Node ID: 80012, Color: (0, 0, 150), Neighbors: 
+Node ID: 60007, Color: (255, 0, 0), Neighbors: 70007 70004 70003 70005 60008 50006 60009 50007 50008 60005 50005 
+Node ID: 100012, Color: (0, 0, 150), Neighbors: 
+Node ID: 150002, Color: (50, 50, 150), Neighbors: 
+Node ID: 40006, Color: (250, 0, 0), Neighbors: 50005 40005 
+Node ID: 80011, Color: (0, 0, 70), Neighbors: 90013 90011 90009 90010 80013 80010 70008 80009 70009 70007 
+Node ID: 70001, Color: (10, 100, 200), Neighbors: 80005 80004 80002 80000 60006 60004 80001 70004 70000 60003 60002 
+Node ID: 110006, Color: (250, 0, 0), Neighbors: 120002 120005 110004 100006 100004 
+Node ID: 50000, Color: (160, 10, 180), Neighbors: 60000 
+Node ID: 90005, Color: (250, 0, 250), Neighbors: 100007 100005 90007 100001 80007 90001 80005 80001 
+Node ID: 70002, Color: (50, 50, 150), Neighbors: 80004 80003 80000 60003 70000 60000 
+Node ID: 110007, Color: (255, 0, 0), Neighbors: 110010 110009 100010 100009 120002 110005 100005 110004 100007 100004 
+Node ID: 30000, Color: (160, 10, 180), Neighbors: 
+Node ID: 70005, Color: (250, 0, 250), Neighbors: 80009 80005 80007 80004 70007 60008 60006 70003 70004 60007 60005 
+Node ID: 110010, Color: (0, 50, 0), Neighbors: 120002 110012 110011 100011 110009 110007 100010 100009 100007 
+Node ID: 50001, Color: (10, 100, 200), Neighbors: 
+Node ID: 90006, Color: (250, 0, 0), Neighbors: 100006 100004 90004 80006 80004 
+Node ID: 70003, Color: (250, 0, 190), Neighbors: 80007 80006 80004 60006 60009 60008 70005 60007 60005 60004 
+Node ID: 110008, Color: (90, 90, 90), Neighbors: 120007 100008 
+Node ID: 50002, Color: (50, 50, 150), Neighbors: 60003 60002 40002 
+Node ID: 90007, Color: (255, 0, 0), Neighbors: 100010 100009 100005 100007 100004 90009 80009 90005 80005 90004 80007 80004 
+Node ID: 70004, Color: (0, 180, 100), Neighbors: 80007 80005 70005 60008 80001 60007 60006 60004 70001 60002 
+Node ID: 110009, Color: (50, 150, 220), Neighbors: 120002 100011 110011 110010 110007 100010 100009 100007 
+Node ID: 50003, Color: (250, 0, 190), Neighbors: 60003 40001 
+Node ID: 90008, Color: (90, 90, 90), Neighbors: 100008 80008 
+Node ID: 160000, Color: (160, 10, 180), Neighbors: 
+Node ID: 50004, Color: (0, 180, 100), Neighbors: 60006 60004 60002 40003 50006 
+Node ID: 90009, Color: (50, 150, 220), Neighbors: 100011 100010 100009 100007 90010 90011 80011 80010 90007 80009 80007 
+Node ID: 80000, Color: (160, 10, 180), Neighbors: 90004 90003 80001 70001 90001 80004 90000 80003 70002 70000 
+Node ID: 120005, Color: (250, 0, 250), Neighbors: 130002 130003 110006 120003 120002 110004 110001 
+Node ID: 80001, Color: (10, 100, 200), Neighbors: 90005 90004 90000 90002 80005 70004 90001 80004 80002 80000 70001 70000 
+Node ID: 120006, Color: (250, 0, 0), Neighbors: 
+Node ID: 80002, Color: (50, 50, 150), Neighbors: 90002 90001 80001 70001 
+Node ID: 120007, Color: (255, 0, 0), Neighbors: 130007 130006 110008 
+Node ID: 80003, Color: (250, 0, 190), Neighbors: 90004 90003 90000 90001 80004 80000 70002 70000 
+Node ID: 80004, Color: (0, 180, 100), Neighbors: 90007 90004 70000 80000 70003 80003 90000 90006 80001 70001 80006 90003 70005 70002 80007 90001 
+Node ID: 90000, Color: (160, 10, 180), Neighbors: 100004 100003 80001 100001 90004 100000 90003 90001 80004 80003 80000 
+Node ID: 90001, Color: (10, 100, 200), Neighbors: 100002 100004 100003 80003 100005 90000 80004 90003 100000 90004 100001 80001 80002 90002 80005 80000 90005 
+Node ID: 90002, Color: (50, 50, 150), Neighbors: 100002 100001 90001 80002 80001 
+Node ID: 90003, Color: (250, 0, 190), Neighbors: 100004 100003 100000 100001 90004 90001 80004 90000 80003 80000 
+Node ID: 90004, Color: (0, 180, 100), Neighbors: 100007 100004 100003 80000 80003 90000 80004 100006 90001 90003 80006 100000 80001 90006 80007 100001 90007 
+Node ID: 100000, Color: (160, 10, 180), Neighbors: 110004 110003 110001 100004 110000 100003 100001 90004 90003 90001 90000 
+Node ID: 100001, Color: (10, 100, 200), Neighbors: 110002 110004 110003 90001 90003 110005 100000 90004 100003 110000 100004 110001 90002 100002 90005 90000 100005 
+Node ID: 100002, Color: (50, 50, 150), Neighbors: 110002 110001 100001 90002 90001 
+Node ID: 100003, Color: (250, 0, 190), Neighbors: 110004 110003 110000 110001 100004 100001 90004 100000 90003 90001 90000 
+Node ID: 100004, Color: (0, 180, 100), Neighbors: 110007 110004 110003 90000 90003 100000 90004 110006 100001 100003 90006 110000 90001 100006 90007 110001 100007 
+Node ID: 110000, Color: (160, 10, 180), Neighbors: 120004 120002 120001 110004 110003 110001 100004 100003 100001 100000 
+Node ID: 110001, Color: (10, 100, 200), Neighbors: 120003 120004 100001 100003 120005 110000 100004 110003 110004 120001 100002 110002 100005 100000 110005 120002 
+Node ID: 110002, Color: (50, 50, 150), Neighbors: 120002 120001 110001 100002 100001 
+Node ID: 110003, Color: (250, 0, 190), Neighbors: 120004 120003 120001 110004 110001 100004 110000 100003 100001 100000 
+Node ID: 110004, Color: (0, 180, 100), Neighbors: 120003 100000 100003 120005 110000 100004 110001 110003 100006 100001 110006 100007 120001 110007 120002 
+Node ID: 120000, Color: (160, 10, 180), Neighbors: 130000 
+Node ID: 120001, Color: (10, 100, 200), Neighbors: 130002 110002 130001 120004 120002 110004 110003 110001 110000 
+Node ID: 120002, Color: (50, 50, 150), Neighbors: 130005 130004 130003 130002 130001 110001 130006 120001 110004 120004 110007 110002 130008 120003 110006 110000 120005 110005 110009 110010 
+Node ID: 120003, Color: (250, 0, 190), Neighbors: 130003 130001 130002 120005 110005 120002 110004 110001 110003 
+Node ID: 120004, Color: (0, 180, 100), Neighbors: 130002 130001 110003 120002 120001 110001 110000 
+Node ID: 130000, Color: (160, 10, 180), Neighbors: 130001 140000 120000 
+Node ID: 130001, Color: (10, 100, 200), Neighbors: 140002 140000 130000 120003 130002 120004 120002 120001 
+
+Edges:
+Edge ID: 30001, Start Node: 30001, End Node: 0
+Edge ID: 30002, Start Node: 30001, End Node: 0
+Edge ID: 40001, Start Node: 30001, End Node: 0
+Edge ID: 40002, Start Node: 30001, End Node: 0
+Edge ID: 30006, Start Node: 30002, End Node: 0
+Edge ID: 40006, Start Node: 30002, End Node: 0
+Edge ID: 30015, Start Node: 30006, End Node: 0
+Edge ID: 40015, Start Node: 30006, End Node: 0
+Edge ID: 50006, Start Node: 40000, End Node: 0
+Edge ID: 40003, Start Node: 40001, End Node: 0
+Edge ID: 40004, Start Node: 40001, End Node: 0
+Edge ID: 50003, Start Node: 40001, End Node: 0
+Edge ID: 50004, Start Node: 40001, End Node: 50003
+Edge ID: 40008, Start Node: 40002, End Node: 0
+Edge ID: 50008, Start Node: 40002, End Node: 50002
+Edge ID: 40010, Start Node: 40003, End Node: 0
+Edge ID: 50010, Start Node: 40003, End Node: 50004
+Edge ID: 40013, Start Node: 40005, End Node: 40006
+Edge ID: 50013, Start Node: 40005, End Node: 50005
+Edge ID: 40019, Start Node: 40007, End Node: 0
+Edge ID: 40020, Start Node: 40007, End Node: 0
+Edge ID: 50019, Start Node: 40007, End Node: 50010
+Edge ID: 50020, Start Node: 40007, End Node: 0
+Edge ID: 40021, Start Node: 40008, End Node: 0
+Edge ID: 50021, Start Node: 40008, End Node: 50009
+Edge ID: 40024, Start Node: 40009, End Node: 0
+Edge ID: 50024, Start Node: 40009, End Node: 50012
+Edge ID: 40027, Start Node: 40010, End Node: 0
+Edge ID: 50027, Start Node: 40010, End Node: 50011
+Edge ID: 50000, Start Node: 50000, End Node: 0
+Edge ID: 60001, Start Node: 50000, End Node: 60000
+Edge ID: 50002, Start Node: 50002, End Node: 0
+Edge ID: 50007, Start Node: 50002, End Node: 0
+Edge ID: 60002, Start Node: 50002, End Node: 60002
+Edge ID: 60007, Start Node: 50002, End Node: 60003
+Edge ID: 60008, Start Node: 50002, End Node: 60002
+Edge ID: 50005, Start Node: 50003, End Node: 0
+Edge ID: 60004, Start Node: 50003, End Node: 0
+Edge ID: 60005, Start Node: 50003, End Node: 60003
+Edge ID: 50009, Start Node: 50004, End Node: 50006
+Edge ID: 60009, Start Node: 50004, End Node: 60002
+Edge ID: 60010, Start Node: 50004, End Node: 60006
+Edge ID: 50011, Start Node: 50005, End Node: 0
+Edge ID: 50012, Start Node: 50005, End Node: 50007
+Edge ID: 60011, Start Node: 50005, End Node: 60004
+Edge ID: 60012, Start Node: 50005, End Node: 60005
+Edge ID: 60013, Start Node: 50005, End Node: 60007
+Edge ID: 50015, Start Node: 50006, End Node: 0
+Edge ID: 60015, Start Node: 50006, End Node: 60008
+Edge ID: 50014, Start Node: 50007, End Node: 50008
+Edge ID: 50016, Start Node: 50007, End Node: 50008
+Edge ID: 50018, Start Node: 50007, End Node: 0
+Edge ID: 60014, Start Node: 50007, End Node: 60009
+Edge ID: 60016, Start Node: 50007, End Node: 60008
+Edge ID: 60018, Start Node: 50007, End Node: 0
+Edge ID: 60019, Start Node: 50008, End Node: 50010
+Edge ID: 50022, Start Node: 50009, End Node: 0
+Edge ID: 60021, Start Node: 50009, End Node: 60009
+Edge ID: 60022, Start Node: 50009, End Node: 60011
+Edge ID: 50023, Start Node: 50010, End Node: 0
+Edge ID: 60023, Start Node: 50010, End Node: 0
+Edge ID: 50026, Start Node: 50011, End Node: 0
+Edge ID: 60026, Start Node: 50011, End Node: 60011
+Edge ID: 60027, Start Node: 50011, End Node: 60013
+Edge ID: 50028, Start Node: 50012, End Node: 0
+Edge ID: 50029, Start Node: 50012, End Node: 0
+Edge ID: 60024, Start Node: 50012, End Node: 60010
+Edge ID: 60028, Start Node: 50012, End Node: 60013
+Edge ID: 60029, Start Node: 50012, End Node: 60012
+Edge ID: 50031, Start Node: 50013, End Node: 0
+Edge ID: 60031, Start Node: 50013, End Node: 60013
+Edge ID: 70001, Start Node: 60000, End Node: 70002
+Edge ID: 60003, Start Node: 60002, End Node: 0
+Edge ID: 70002, Start Node: 60002, End Node: 70001
+Edge ID: 70003, Start Node: 60002, End Node: 70001
+Edge ID: 70008, Start Node: 60002, End Node: 70001
+Edge ID: 70009, Start Node: 60002, End Node: 70004
+Edge ID: 70005, Start Node: 60003, End Node: 70002
+Edge ID: 70007, Start Node: 60003, End Node: 70001
+Edge ID: 70010, Start Node: 60004, End Node: 70004
+Edge ID: 70011, Start Node: 60004, End Node: 70003
+Edge ID: 70012, Start Node: 60005, End Node: 70003
+Edge ID: 70013, Start Node: 60005, End Node: 70005
+Edge ID: 70014, Start Node: 60005, End Node: 70003
+Edge ID: 70016, Start Node: 60006, End Node: 70005
+Edge ID: 60017, Start Node: 60007, End Node: 60008
+Edge ID: 60020, Start Node: 60007, End Node: 0
+Edge ID: 70015, Start Node: 60007, End Node: 70005
+Edge ID: 70017, Start Node: 60007, End Node: 70007
+Edge ID: 70020, Start Node: 60007, End Node: 70007
+Edge ID: 70022, Start Node: 60008, End Node: 70006
+Edge ID: 70021, Start Node: 60009, End Node: 70006
+Edge ID: 60025, Start Node: 60010, End Node: 0
+Edge ID: 70024, Start Node: 60010, End Node: 70009
+Edge ID: 70025, Start Node: 60010, End Node: 70009
+Edge ID: 70026, Start Node: 60011, End Node: 70008
+Edge ID: 70027, Start Node: 60011, End Node: 70009
+Edge ID: 70028, Start Node: 60011, End Node: 70009
+Edge ID: 60030, Start Node: 60012, End Node: 0
+Edge ID: 70029, Start Node: 60012, End Node: 70009
+Edge ID: 70030, Start Node: 60012, End Node: 70009
+Edge ID: 60032, Start Node: 60013, End Node: 0
+Edge ID: 70031, Start Node: 60013, End Node: 0
+Edge ID: 70032, Start Node: 60013, End Node: 0
+Edge ID: 60035, Start Node: 60014, End Node: 0
+Edge ID: 70035, Start Node: 60014, End Node: 0
+Edge ID: 60034, Start Node: 60015, End Node: 0
+Edge ID: 70034, Start Node: 60015, End Node: 0
+Edge ID: 80001, Start Node: 70000, End Node: 80004
+Edge ID: 80002, Start Node: 70000, End Node: 80001
+Edge ID: 70004, Start Node: 70001, End Node: 0
+Edge ID: 80003, Start Node: 70001, End Node: 80002
+Edge ID: 80004, Start Node: 70001, End Node: 80002
+Edge ID: 80007, Start Node: 70001, End Node: 80001
+Edge ID: 80008, Start Node: 70001, End Node: 80004
+Edge ID: 80009, Start Node: 70001, End Node: 80005
+Edge ID: 80010, Start Node: 70001, End Node: 80005
+Edge ID: 70006, Start Node: 70002, End Node: 0
+Edge ID: 80005, Start Node: 70002, End Node: 80003
+Edge ID: 80006, Start Node: 70002, End Node: 80003
+Edge ID: 70018, Start Node: 70003, End Node: 0
+Edge ID: 80011, Start Node: 70003, End Node: 80006
+Edge ID: 80012, Start Node: 70003, End Node: 80006
+Edge ID: 80013, Start Node: 70003, End Node: 80007
+Edge ID: 80014, Start Node: 70003, End Node: 80006
+Edge ID: 80016, Start Node: 70003, End Node: 80007
+Edge ID: 80018, Start Node: 70003, End Node: 80004
+Edge ID: 80015, Start Node: 70004, End Node: 80007
+Edge ID: 80017, Start Node: 70005, End Node: 80009
+Edge ID: 80020, Start Node: 70005, End Node: 80009
+Edge ID: 80021, Start Node: 70006, End Node: 80008
+Edge ID: 80022, Start Node: 70006, End Node: 80008
+Edge ID: 70023, Start Node: 70007, End Node: 0
+Edge ID: 80023, Start Node: 70007, End Node: 80009
+Edge ID: 80024, Start Node: 70007, End Node: 80011
+Edge ID: 80025, Start Node: 70007, End Node: 80011
+Edge ID: 80026, Start Node: 70008, End Node: 80010
+Edge ID: 80027, Start Node: 70008, End Node: 80011
+Edge ID: 80028, Start Node: 70009, End Node: 80013
+Edge ID: 80029, Start Node: 70009, End Node: 80013
+Edge ID: 80030, Start Node: 70009, End Node: 80013
+Edge ID: 90001, Start Node: 80000, End Node: 90004
+Edge ID: 90002, Start Node: 80000, End Node: 90001
+Edge ID: 90003, Start Node: 80001, End Node: 90002
+Edge ID: 90004, Start Node: 80001, End Node: 90002
+Edge ID: 90007, Start Node: 80001, End Node: 90001
+Edge ID: 90008, Start Node: 80001, End Node: 90004
+Edge ID: 90009, Start Node: 80001, End Node: 90005
+Edge ID: 90010, Start Node: 80001, End Node: 90005
+Edge ID: 90005, Start Node: 80003, End Node: 90003
+Edge ID: 90006, Start Node: 80003, End Node: 90003
+Edge ID: 90011, Start Node: 80004, End Node: 90006
+Edge ID: 90013, Start Node: 80004, End Node: 90007
+Edge ID: 90016, Start Node: 80004, End Node: 90007
+Edge ID: 90018, Start Node: 80004, End Node: 90004
+Edge ID: 90015, Start Node: 80005, End Node: 90007
+Edge ID: 90012, Start Node: 80006, End Node: 90006
+Edge ID: 90014, Start Node: 80006, End Node: 90006
+Edge ID: 90017, Start Node: 80007, End Node: 90009
+Edge ID: 90020, Start Node: 80007, End Node: 90009
+Edge ID: 90021, Start Node: 80008, End Node: 90008
+Edge ID: 90022, Start Node: 80008, End Node: 90008
+Edge ID: 90023, Start Node: 80009, End Node: 90009
+Edge ID: 90024, Start Node: 80009, End Node: 90011
+Edge ID: 90025, Start Node: 80009, End Node: 90011
+Edge ID: 90026, Start Node: 80010, End Node: 90010
+Edge ID: 90027, Start Node: 80010, End Node: 90011
+Edge ID: 90028, Start Node: 80011, End Node: 90013
+Edge ID: 90029, Start Node: 80011, End Node: 90013
+Edge ID: 90030, Start Node: 80013, End Node: 90013
+Edge ID: 100001, Start Node: 90000, End Node: 100004
+Edge ID: 100002, Start Node: 90000, End Node: 100001
+Edge ID: 100003, Start Node: 90001, End Node: 100002
+Edge ID: 100004, Start Node: 90001, End Node: 100002
+Edge ID: 100007, Start Node: 90001, End Node: 100001
+Edge ID: 100008, Start Node: 90001, End Node: 100004
+Edge ID: 100009, Start Node: 90001, End Node: 100005
+Edge ID: 100010, Start Node: 90001, End Node: 100005
+Edge ID: 100005, Start Node: 90003, End Node: 100003
+Edge ID: 100006, Start Node: 90003, End Node: 100003
+Edge ID: 100011, Start Node: 90004, End Node: 100006
+Edge ID: 100013, Start Node: 90004, End Node: 100007
+Edge ID: 100016, Start Node: 90004, End Node: 100007
+Edge ID: 100018, Start Node: 90004, End Node: 100004
+Edge ID: 100015, Start Node: 90005, End Node: 100007
+Edge ID: 100012, Start Node: 90006, End Node: 100006
+Edge ID: 100014, Start Node: 90006, End Node: 100006
+Edge ID: 100017, Start Node: 90007, End Node: 100010
+Edge ID: 100020, Start Node: 90007, End Node: 100009
+Edge ID: 100021, Start Node: 90008, End Node: 100008
+Edge ID: 100022, Start Node: 90008, End Node: 100008
+Edge ID: 100023, Start Node: 90009, End Node: 100009
+Edge ID: 100024, Start Node: 90009, End Node: 100011
+Edge ID: 100025, Start Node: 90009, End Node: 100011
+Edge ID: 100026, Start Node: 90010, End Node: 100010
+Edge ID: 100027, Start Node: 90010, End Node: 100011
+Edge ID: 100028, Start Node: 90011, End Node: 100013
+Edge ID: 100029, Start Node: 90013, End Node: 100013
+Edge ID: 100030, Start Node: 90013, End Node: 100013
+Edge ID: 110001, Start Node: 100000, End Node: 110004
+Edge ID: 110002, Start Node: 100000, End Node: 110001
+Edge ID: 110003, Start Node: 100001, End Node: 110002
+Edge ID: 110004, Start Node: 100001, End Node: 110002
+Edge ID: 110007, Start Node: 100001, End Node: 110001
+Edge ID: 110008, Start Node: 100001, End Node: 110004
+Edge ID: 110009, Start Node: 100001, End Node: 110005
+Edge ID: 110010, Start Node: 100001, End Node: 110005
+Edge ID: 110005, Start Node: 100003, End Node: 110003
+Edge ID: 110006, Start Node: 100003, End Node: 110003
+Edge ID: 110011, Start Node: 100004, End Node: 110006
+Edge ID: 110013, Start Node: 100004, End Node: 110007
+Edge ID: 110016, Start Node: 100004, End Node: 110007
+Edge ID: 110018, Start Node: 100004, End Node: 110004
+Edge ID: 110015, Start Node: 100005, End Node: 110007
+Edge ID: 110012, Start Node: 100006, End Node: 110006
+Edge ID: 110014, Start Node: 100006, End Node: 110006
+Edge ID: 110017, Start Node: 100007, End Node: 110010
+Edge ID: 110020, Start Node: 100007, End Node: 110009
+Edge ID: 110021, Start Node: 100008, End Node: 110008
+Edge ID: 110022, Start Node: 100008, End Node: 110008
+Edge ID: 110023, Start Node: 100009, End Node: 110011
+Edge ID: 110024, Start Node: 100009, End Node: 110011
+Edge ID: 110025, Start Node: 100009, End Node: 110011
+Edge ID: 110026, Start Node: 100010, End Node: 110012
+Edge ID: 110027, Start Node: 100010, End Node: 110011
+Edge ID: 110028, Start Node: 100011, End Node: 110013
+Edge ID: 110029, Start Node: 100013, End Node: 110013
+Edge ID: 110030, Start Node: 100013, End Node: 110013
+Edge ID: 120001, Start Node: 110000, End Node: 120001
+Edge ID: 120002, Start Node: 110000, End Node: 120004
+Edge ID: 120003, Start Node: 110001, End Node: 120002
+Edge ID: 120004, Start Node: 110001, End Node: 120002
+Edge ID: 120007, Start Node: 110001, End Node: 120004
+Edge ID: 120008, Start Node: 110001, End Node: 120005
+Edge ID: 120009, Start Node: 110001, End Node: 120003
+Edge ID: 120010, Start Node: 110001, End Node: 120002
+Edge ID: 120005, Start Node: 110003, End Node: 120003
+Edge ID: 120006, Start Node: 110003, End Node: 120004
+Edge ID: 120011, Start Node: 110004, End Node: 120005
+Edge ID: 120013, Start Node: 110004, End Node: 120002
+Edge ID: 120016, Start Node: 110004, End Node: 120002
+Edge ID: 120018, Start Node: 110004, End Node: 120002
+Edge ID: 120015, Start Node: 110005, End Node: 120002
+Edge ID: 120012, Start Node: 110006, End Node: 120002
+Edge ID: 120014, Start Node: 110006, End Node: 0
+Edge ID: 120017, Start Node: 110007, End Node: 120002
+Edge ID: 120020, Start Node: 110007, End Node: 120002
+Edge ID: 120021, Start Node: 110008, End Node: 120007
+Edge ID: 120022, Start Node: 110008, End Node: 120007
+Edge ID: 120023, Start Node: 110009, End Node: 110011
+Edge ID: 120024, Start Node: 110009, End Node: 110011
+Edge ID: 120025, Start Node: 110009, End Node: 110011
+Edge ID: 120026, Start Node: 110010, End Node: 110012
+Edge ID: 120027, Start Node: 110010, End Node: 110011
+Edge ID: 120028, Start Node: 110011, End Node: 110013
+Edge ID: 120029, Start Node: 110013, End Node: 0
+Edge ID: 120030, Start Node: 110013, End Node: 0
+Edge ID: 130000, Start Node: 120000, End Node: 130000
+Edge ID: 130001, Start Node: 120001, End Node: 130001
+Edge ID: 130002, Start Node: 120001, End Node: 130002
+Edge ID: 130003, Start Node: 120001, End Node: 130002
+Edge ID: 120019, Start Node: 120002, End Node: 0
+Edge ID: 130004, Start Node: 120002, End Node: 0
+Edge ID: 130008, Start Node: 120002, End Node: 130003
+Edge ID: 130010, Start Node: 120002, End Node: 130002
+Edge ID: 130012, Start Node: 120002, End Node: 130002
+Edge ID: 130013, Start Node: 120002, End Node: 130008
+Edge ID: 130015, Start Node: 120002, End Node: 130004
+Edge ID: 130016, Start Node: 120002, End Node: 130008
+Edge ID: 130017, Start Node: 120002, End Node: 130005
+Edge ID: 130018, Start Node: 120002, End Node: 130006
+Edge ID: 130019, Start Node: 120002, End Node: 130005
+Edge ID: 130020, Start Node: 120002, End Node: 130006
+Edge ID: 130005, Start Node: 120003, End Node: 130002
+Edge ID: 130009, Start Node: 120003, End Node: 130003
+Edge ID: 130006, Start Node: 120004, End Node: 130002
+Edge ID: 130007, Start Node: 120004, End Node: 0
+Edge ID: 130011, Start Node: 120005, End Node: 130002
+Edge ID: 130021, Start Node: 120007, End Node: 130006
+Edge ID: 130022, Start Node: 120007, End Node: 130007
+Edge ID: 140000, Start Node: 130000, End Node: 140000
+Edge ID: 140001, Start Node: 130000, End Node: 140000
+Edge ID: 140002, Start Node: 130001, End Node: 140000
+Edge ID: 140005, Start Node: 130001, End Node: 140002
+Edge ID: 140006, Start Node: 130001, End Node: 140002
+Edge ID: 130014, Start Node: 130002, End Node: 0
+Edge ID: 140003, Start Node: 130002, End Node: 140000
+Edge ID: 140010, Start Node: 130002, End Node: 140007
+Edge ID: 140011, Start Node: 130002, End Node: 0
+Edge ID: 140012, Start Node: 130002, End Node: 140008
+Edge ID: 140013, Start Node: 130002, End Node: 130008
+Edge ID: 140014, Start Node: 130002, End Node: 140011
+Edge ID: 140015, Start Node: 130002, End Node: 130004
+Edge ID: 140016, Start Node: 130002, End Node: 140012
+Edge ID: 140008, Start Node: 130003, End Node: 140006
+Edge ID: 140009, Start Node: 130003, End Node: 140006
+Edge ID: 140017, Start Node: 130005, End Node: 0
+Edge ID: 140019, Start Node: 130005, End Node: 0
+Edge ID: 130026, Start Node: 130006, End Node: 0
+Edge ID: 130027, Start Node: 130006, End Node: 0
+Edge ID: 130028, Start Node: 130006, End Node: 0
+Edge ID: 130030, Start Node: 130006, End Node: 0
+Edge ID: 130032, Start Node: 130006, End Node: 130011
+Edge ID: 130033, Start Node: 130006, End Node: 0
+Edge ID: 140018, Start Node: 130006, End Node: 140014
+Edge ID: 140020, Start Node: 130006, End Node: 140015
+Edge ID: 140021, Start Node: 130006, End Node: 0
+Edge ID: 140026, Start Node: 130006, End Node: 0
+Edge ID: 140027, Start Node: 130006, End Node: 0
+Edge ID: 140028, Start Node: 130006, End Node: 0
+Edge ID: 140030, Start Node: 130006, End Node: 0
+Edge ID: 140032, Start Node: 130006, End Node: 130011
+Edge ID: 140033, Start Node: 130006, End Node: 0
+Edge ID: 140022, Start Node: 130007, End Node: 0
+Edge ID: 130023, Start Node: 130008, End Node: 0
+Edge ID: 130024, Start Node: 130008, End Node: 0
+Edge ID: 140023, Start Node: 130008, End Node: 0
+Edge ID: 140024, Start Node: 130008, End Node: 0
+Edge ID: 130029, Start Node: 130009, End Node: 0
+Edge ID: 130031, Start Node: 130009, End Node: 0
+Edge ID: 140029, Start Node: 130009, End Node: 0
+Edge ID: 140031, Start Node: 130009, End Node: 0
+Edge ID: 130034, Start Node: 130010, End Node: 130011
+Edge ID: 140034, Start Node: 130010, End Node: 130011
+Edge ID: 130035, Start Node: 130012, End Node: 0
+Edge ID: 130038, Start Node: 130012, End Node: 0
+Edge ID: 140035, Start Node: 130012, End Node: 0
+Edge ID: 140038, Start Node: 130012, End Node: 0
+Edge ID: 150001, Start Node: 140000, End Node: 150000
+Edge ID: 150002, Start Node: 140000, End Node: 0
+Edge ID: 140004, Start Node: 140001, End Node: 0
+Edge ID: 150004, Start Node: 140001, End Node: 0
+Edge ID: 150005, Start Node: 140002, End Node: 0
+Edge ID: 150006, Start Node: 140002, End Node: 0
+Edge ID: 150008, Start Node: 140006, End Node: 0
+Edge ID: 150009, Start Node: 140006, End Node: 150004
+Edge ID: 150010, Start Node: 140007, End Node: 0
+Edge ID: 150012, Start Node: 140008, End Node: 0
+Edge ID: 150014, Start Node: 140011, End Node: 0
+Edge ID: 150018, Start Node: 140011, End Node: 150007
+Edge ID: 150016, Start Node: 140012, End Node: 0
+Edge ID: 150020, Start Node: 140015, End Node: 0
+Edge ID: 150007, Start Node: 150003, End Node: 0
+Edge ID: 160007, Start Node: 150003, End Node: 0
+Edge ID: 160009, Start Node: 150004, End Node: 0
+Edge ID: 160018, Start Node: 150007, End Node: 0
