@@ -1,6 +1,7 @@
 #include <iostream>
 
 class ImageRestore{
-    private:
-    
-}
+//private:
+public:
+    ImageRestore();
+};

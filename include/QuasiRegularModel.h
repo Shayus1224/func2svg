@@ -12,8 +12,9 @@ public:
     QuasiRegularModel(const int& imageOption,const int& iterationTime, const int& colorChoice);
 
     PointInfo getPointInfo(const double& x, const double& y);
+
     int getLevels();
-    std::string getImageName();
+    std::string getImageName() const;
 
     const int GRID_SIZE = 512;
     const double CELL_SIZE = 40.0 / GRID_SIZE;

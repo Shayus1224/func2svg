@@ -19,6 +19,12 @@ struct spline_info {
 };
 
 struct Node {
+//    // 截面对应的高度值
+//    double level;
+//    // 在截面上曲线的标号
+//    int id;
+//    // 邻居节点（上下层）同层不需要连接
+//    std::unordered_set<int> neighbors;
     int id;
     cv::Scalar color;
     std::unordered_set<int> neighbors;
@@ -28,7 +34,7 @@ struct Edge {
     int endNode;
     int id;
     std::vector<Point> outerLine; // 目前用离散点表示，之后用曲线拟合
-    alglib::spline1dinterpolant line1;// , line2; // 拟合后的曲线信息
+    alglib::spline1dinterpolant line1, line2; // 拟合后的曲线信息
     spline_info l1, l2;
     Edge(int s, int e, int id, std::vector<Point> l) : startNode(s), endNode(e), id(id), outerLine(std::move(l))
     {
@@ -136,7 +142,12 @@ public:
             alglib::spline1dserialize(spline1, serializedSpline);
 			std::cout << serializedSpline << std::endl;
             outfile_line<< "Edge ID: " << edge.id << std::endl << serializedSpline << std::endl << std::endl;
-            
+
+            auto& spline2 = edge.line2;
+            alglib::spline1dserialize(spline2, serializedSpline);
+            std::cout << serializedSpline << std::endl;
+            outfile_line<< "Edge ID: " << edge.id << std::endl << serializedSpline << std::endl << std::endl;
+
         }
         outfile.close();
         outfile_line.close();
