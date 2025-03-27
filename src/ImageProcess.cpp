@@ -526,7 +526,7 @@ void ImageProcess::to_linesImage()
  *   7. level
  */
 void regroup(std::vector<cv::Vec4i>& new_hierarchy,
-             std::vector<std::vector<cv::Point>>& new_contours,
+             std::vector<std::pair<std::vector<cv::Point>,int>>& new_contours,
              int fatherLine, int thisLine,int n,
              const std::vector<std::vector<std::vector<cv::Point>>>& contourss,
              const std::vector<std::vector<cv::Vec4i>>& hierarchys){
@@ -536,6 +536,17 @@ void regroup(std::vector<cv::Vec4i>& new_hierarchy,
     auto childCurve = contourss[n + 1][thisLine];
     auto fatherTopo = hierarchys[n][fatherLine]; // [Next, Previous, First_Child, Parent]
     auto childTopo = hierarchys[n + 1][thisLine];
+    int fatherID = n * 10000 + fatherLine;
+    int childID = (n+1) * 10000 + thisLine;
+
+    int fatherIdx,childIdx;
+    for(const auto& nc : new_contours){
+        if  (nc.second == fatherID) {
+            fatherIdx = nc.second;
+        }else if(nc.second == childID){
+
+        }
+    }
 
     // 将父轮廓和子轮廓添加到新的轮廓集合中
     int fatherIdx = new_contours.size();

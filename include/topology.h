@@ -49,13 +49,15 @@ public:
     std::vector<Edge> edges; // 边的列表
 
     // 添加节点
-    void addNode(int id, cv::Scalar color)
+    // return 1:添加成功，return 2，添加失败，已存在。
+    bool addNode(int id, cv::Scalar color)
     {
         if (nodes.find(id) != nodes.end()) {
             std::cerr << "Node with id " << id << " already exists." << std::endl;
-            return;
+            return 0;
         }
         nodes[id] = { id, std::move(color), {} };
+        return 1;
     }
 
     // 添加边
