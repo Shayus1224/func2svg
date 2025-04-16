@@ -9,16 +9,16 @@
 
 int main()
 {
-//for(int t=0;t<6;++t) {
-    int t = 3;
+for(int t=0;t<111;t++) {
+//    int t = 3;
     std::cout << "start process  " << t << " choice" << std::endl;
-    QuasiRegularModel qrm(t, 4, 0);
+    QuasiRegularModel qrm(t, 5, 0);
     ImageProcess ip(qrm);
-
-    ip.to_image();
-    ip.to_linesImage();
+    ip.to_train_image();
+//    ip.to_image();
+//    ip.to_linesImage();
     //ip.to_linesImage_new();
-//}
+}
 
     return 0;
 }

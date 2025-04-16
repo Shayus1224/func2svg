@@ -366,24 +366,25 @@ void ImageProcess::getTopology(const std::vector<std::vector<std::vector<Point>>
 /**
  * 将图像从像素值转换为色块图像
  */
-void ImageProcess::to_image()
-{
-	cv::Mat bezierFittedImage(image.imageSize, image.imageSize, CV_8UC3, cv::Scalar(255, 255, 255));
-	// 获取图像指针
-	for (int i = 0; i < image.imageSize; ++i) {
-		auto* rowPtr = bezierFittedImage.ptr<cv::Vec3b>(i);
-		for (int j = 0; j < image.imageSize; ++j) {
-			// 计算像素点的位置和颜色
-			double x = image.offset + image.cellSize * i;
-			double y = image.offset + image.cellSize * j;
-			auto pi = image.getPointInfo(x, y);
+void ImageProcess::to_image() {
+    cv::Mat bezierFittedImage(image.imageSize, image.imageSize, CV_8UC3, cv::Scalar(255, 255, 255));
+    // 获取图像指针
 
-			rowPtr[j] = cv::Vec3b((uchar)pi.Color[2], (uchar)pi.Color[1], (uchar)pi.Color[0]);
-		}
-	}
-	std::string n = image.getImageName() + "_originalImage.jpg";
-	std::cout << "a original image is generated as " + n << std::endl;
-	cv::imwrite(n, bezierFittedImage);
+    for (int i = 0; i < image.imageSize; ++i) {
+        auto *rowPtr = bezierFittedImage.ptr<cv::Vec3b>(i);
+        for (int j = 0; j < image.imageSize; ++j) {
+            // 计算像素点的位置和颜色
+            double x = image.offset + image.cellSize * i;
+            double y = image.offset + image.cellSize * j;
+            auto pi = image.getPointInfo(x, y);
+
+            rowPtr[j] = cv::Vec3b((uchar) pi.Color[2], (uchar) pi.Color[1], (uchar) pi.Color[0]);
+        }
+    }
+    std::string n = image.getImageName() + "_originalImage.jpg";
+    std::cout << "a original image is generated as " + n << std::endl;
+    cv::imwrite(n, bezierFittedImage);
+
 }
 
 void ImageProcess::to_linesImage()
@@ -532,44 +533,44 @@ void regroup(std::vector<cv::Vec4i>& new_hierarchy,
              const std::vector<std::vector<cv::Vec4i>>& hierarchys){
     // 重组拓扑结构。
     // 获取父轮廓和子轮廓
-    auto fatherCurve = contourss[n][fatherLine];
-    auto childCurve = contourss[n + 1][thisLine];
-    auto fatherTopo = hierarchys[n][fatherLine]; // [Next, Previous, First_Child, Parent]
-    auto childTopo = hierarchys[n + 1][thisLine];
-    int fatherID = n * 10000 + fatherLine;
-    int childID = (n+1) * 10000 + thisLine;
+//    auto fatherCurve = contourss[n][fatherLine];
+//    auto childCurve = contourss[n + 1][thisLine];
+//    auto fatherTopo = hierarchys[n][fatherLine]; // [Next, Previous, First_Child, Parent]
+//    auto childTopo = hierarchys[n + 1][thisLine];
+//    int fatherID = n * 10000 + fatherLine;
+//    int childID = (n+1) * 10000 + thisLine;
 
-    int fatherIdx,childIdx;
-    for(const auto& nc : new_contours){
-        if  (nc.second == fatherID) {
-            fatherIdx = nc.second;
-        }else if(nc.second == childID){
-
-        }
-    }
-
-    // 将父轮廓和子轮廓添加到新的轮廓集合中
-    int fatherIdx = new_contours.size();
-    new_contours.push_back(fatherCurve);
-    int childIdx = new_contours.size();
-    new_contours.push_back(childCurve);
-
-    // 更新层次结构
-    cv::Vec4i newFatherTopo = {-1, -1, childIdx, -1}; // 父轮廓的第一个子轮廓指向子轮廓
-    cv::Vec4i newChildTopo = {-1, -1, -1, fatherIdx}; // 子轮廓的父轮廓指向父轮廓
-
-    // 如果父轮廓在原始层次结构中已有子轮廓，需处理
-    if (fatherTopo[2] != -1) {
-        // 将原始第一个子轮廓的索引放入新层次结构
-        int origFirstChildIdx = new_contours.size();
-        new_contours.push_back(contourss[n][fatherTopo[2]]);
-        newFatherTopo[2] = origFirstChildIdx; // 更新父轮廓的第一个子轮廓
-        new_hierarchy.push_back({-1, -1, -1, fatherIdx}); // 原始子轮廓的父轮廓指向 fatherIdx
-    }
-
-    // 添加新的层次信息
-    new_hierarchy.push_back(newFatherTopo);
-    new_hierarchy.push_back(newChildTopo);
+//    int fatherIdx,childIdx;
+//    for(const auto& nc : new_contours){
+//        if  (nc.second == fatherID) {
+//            fatherIdx = nc.second;
+//        }else if(nc.second == childID){
+//
+//        }
+//    }
+//
+//    // 将父轮廓和子轮廓添加到新的轮廓集合中
+//    int fatherIdx = new_contours.size();
+//    new_contours.push_back(fatherCurve);
+//    int childIdx = new_contours.size();
+//    new_contours.push_back(childCurve);
+//
+//    // 更新层次结构
+//    cv::Vec4i newFatherTopo = {-1, -1, childIdx, -1}; // 父轮廓的第一个子轮廓指向子轮廓
+//    cv::Vec4i newChildTopo = {-1, -1, -1, fatherIdx}; // 子轮廓的父轮廓指向父轮廓
+//
+//    // 如果父轮廓在原始层次结构中已有子轮廓，需处理
+//    if (fatherTopo[2] != -1) {
+//        // 将原始第一个子轮廓的索引放入新层次结构
+//        int origFirstChildIdx = new_contours.size();
+//        new_contours.push_back(contourss[n][fatherTopo[2]]);
+//        newFatherTopo[2] = origFirstChildIdx; // 更新父轮廓的第一个子轮廓
+//        new_hierarchy.push_back({-1, -1, -1, fatherIdx}); // 原始子轮廓的父轮廓指向 fatherIdx
+//    }
+//
+//    // 添加新的层次信息
+//    new_hierarchy.push_back(newFatherTopo);
+//    new_hierarchy.push_back(newChildTopo);
 }
 
 
@@ -610,7 +611,7 @@ void ImageProcess::sortTopology(std::vector<std::vector<std::vector<cv::Point>>>
                     auto color = image_e.at<cv::Vec3b>(p.y, p.x);
                     auto fatherLine = color[0] + (color[1] * 256) + (color[2] * 256 * 256);
                     auto thisLine = help_count;
-                    regroup(new_hierarchy, new_contours, fatherLine - 1, thisLine - 1, n, contourss, hierarchys);
+                    //regroup(new_hierarchy, new_contours, fatherLine - 1, thisLine - 1, n, contourss, hierarchys);
                     visited = true;
                 }
                 cv::circle(image_all, p, 1, cv::Scalar(255, 255, 255), -1);
@@ -722,3 +723,33 @@ void ImageProcess::sortTopology(std::vector<std::vector<std::vector<cv::Point>>>
 //    // 结果：new_contours 和 new_hierarchy 包含完整的拓扑信息
 //    generateTopologyGraph(new_hierarchy);
 //}
+
+void ImageProcess::to_train_image()
+{
+        auto levels = image.valueScheme[0];
+        // 获取图像指针
+        for(int level = 0 ; level < levels.size()-1; ++ level) {
+            cv::Mat bezierFittedImage(image.imageSize, image.imageSize, CV_8UC3, cv::Scalar(0,0,0));
+
+            auto h1 = levels[level];
+            auto h2 = levels[level + 1];
+
+            for (int i = 0; i < image.imageSize; ++i) {
+                auto *rowPtr = bezierFittedImage.ptr<cv::Vec3b>(i);
+                for (int j = 0; j < image.imageSize; ++j) {
+                    // 计算像素点的位置和颜色
+                    double x = image.offset + image.cellSize * i;
+                    double y = image.offset + image.cellSize * j;
+                    auto pi = image.getPointInfo(x, y);
+                    if (pi.value >= h1 && pi.value < h2) {
+                        rowPtr[j] = cv::Vec3b(255,255,255);
+                    }
+                }
+            }
+            //std::string outputDir = "D:/coding/train_data/";// path/to/your/folder/"; // 必须以斜杠结尾
+            std::string n = image.getImageName() + "_" + std::to_string(level) + "_originalImage.jpg";
+            std::cout << "a original image is generated as " + n << std::endl;
+            cv::imwrite(n, bezierFittedImage);
+        }
+    }
+

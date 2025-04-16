@@ -26,5 +26,7 @@ public:
     // generate original image
     void to_image();
     void to_linesImage();
+
+    void to_train_image();
 };
 
